@@ -1,4 +1,4 @@
-# MATLAB/Octave Implementation of Recommendation ITU-R P.452-16
+# MATLAB/Octave Implementation of Recommendation ITU-R P.452-17
 
 This code repository contains a MATLAB/Octave software implementation of Recommendation [ITU-R P.452-16](https://www.itu.int/rec/R-REC-P.452/en) with a prediction procedure for the evaluation of interference between stations on the surface of the Earth at frequencies above about 0.1 GHz.  
 
