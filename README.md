@@ -53,7 +53,7 @@ Lb = tl_p452(f, p, d, h, zone, htg, hrg, phi_t, phi_r, Gt, Gr, pol, dct, dcr, DN
 | `press`           | scalar double    | hPa      |             | Dry air pressure.|
 | `temp`           | scalar double    | deg C      |             | Air temperature.|
 
-## Optional input arguments of function `tl_p1812`
+## Optional input arguments of function `tl_p452`
 | Variable          | Type   | Units | Limits       | Description  |
 |-------------------|--------|-------|--------------|--------------|
 | `ha_t`           | scalar double    | m      |             | Clutter nominal height at the Tx side |
