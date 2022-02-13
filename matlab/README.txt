@@ -15,7 +15,8 @@ GENERAL NOTES
   2) Subfolder ./private/ with all the MATLAB routines necessary for the implementation of the
      propagation model, including the MATLAB implementation of Recommendation ITU-R P.676-11
      (computing the specific attenuation due to dry air and water vapor by means of a summation
-     of individual resonance lines from oxigen and water vapor). Subfolder ./private/ also contains test functions used to verify the current implementation of the model.
+     of individual resonance lines from oxigen and water vapor). Subfolder ./private/ also contains 
+     test functions used to verify the current implementation of the model.
      including several files with path profile data used in testing.
 
   3) Subfolder ./validation_examples with a non-exhaustive set of validation examples,
