@@ -1,6 +1,6 @@
 # MATLAB/Octave Implementation of Recommendation ITU-R P.452-17
 
-This code repository contains a MATLAB/Octave software implementation of Recommendation [ITU-R P.452-16](https://www.itu.int/rec/R-REC-P.452/en) with a prediction procedure for the evaluation of interference between stations on the surface of the Earth at frequencies above about 0.1 GHz.  
+This code repository contains a MATLAB/Octave software implementation of Recommendation [ITU-R P.452-17](https://www.itu.int/rec/R-REC-P.452/en) with a prediction procedure for the evaluation of interference between stations on the surface of the Earth at frequencies above about 0.1 GHz.  
 
 The reference version of this code (as approved by ITU-R Working Party 3M) is published by Study Group 3 on [ITU-R SG 3 Software, Data, and Validation Web Page](https://www.itu.int/en/ITU-R/study-groups/rsg3/Pages/iono-tropo-spheric.aspx).
 
@@ -8,9 +8,9 @@ The following table describes the structure of the folder `./matlab/` containing
 
 | File/Folder               | Description                                                         |
 |----------------------------|---------------------------------------------------------------------|
-|`tl_p452.m`                | MATLAB function implementing Recommendation ITU-R P.452-16          |
+|`tl_p452.m`                | MATLAB function implementing Recommendation ITU-R P.452-17          |
 |`validate_p452.m`          | MATLAB script used to validate the implementation of this Recommendation in `tl_p452.m` against the reference results obtained using Excel implementation of the same Recommendation and report success if the maximum deviation in final and intermediate results is less than 0.0001 dB.             |
-|`./validation_examples/`    | Folder containing a non-exhaustive set of validation examples, in a form of Excel worksheets, for different terrain profiles, clutter heights, frequencies, time-probabilities, etc. They include intermediate and final results of the calculations performed within P.452-16 with the aim of facilitating testing and validation, as well as comparison between different software implementations. They are obtained using Excel implementation of Recommendation ITU-R P.452-16 as defined in ITUR_452_16.xlsm also available on [ITU-R SG 3 Software, Data, and Validation Web Page](https://www.itu.int/en/ITU-R/study-groups/rsg3/Pages/iono-tropo-spheric.aspx). |
+|`./validation_examples/`    | Folder containing a non-exhaustive set of validation examples, in a form of Excel worksheets, for different terrain profiles, clutter heights, frequencies, time-probabilities, etc. They include intermediate and final results of the calculations performed within P.452-17 with the aim of facilitating testing and validation, as well as comparison between different software implementations. They are obtained using Excel implementation of Recommendation ITU-R P.452-16 as defined in ITUR_452_16.xlsm also available on [ITU-R SG 3 Software, Data, and Validation Web Page](https://www.itu.int/en/ITU-R/study-groups/rsg3/Pages/iono-tropo-spheric.aspx). |
 |`./src/`   |  Folder containing all the MATLAB routines necessary for the implementation of the propagation model, including the MATLAB implementation of Recommendation ITU-R P.676-11 (computing the specific attenuation due to dry air and water vapor by means of a summation of individual resonance lines from oxigen and water vapor).|
 |`P452.m`  `P452.fig`                | Graphical User Interface defined in those files can be opened by invoking the command `>> P452` in the MATLAB command window. Works only in MATLAB and not in Octave.       |
 |`test_example.mat`                | An example of simulation data file that can be opened by the GUI. Works only in MATLAB and not in Octave.|
