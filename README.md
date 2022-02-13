@@ -4,12 +4,12 @@ This code repository contains a MATLAB/Octave software implementation of Recomme
 
 The reference version of this code (as approved by ITU-R Working Party 3M) is published by Study Group 3 on [ITU-R SG 3 Software, Data, and Validation Web Page](https://www.itu.int/en/ITU-R/study-groups/rsg3/Pages/iono-tropo-spheric.aspx).
 
-The following table describes the structure of the folder `./matlab/` containing the MATLAB/Octave implementation of Recommendation ITU-R P.1812.
+The following table describes the structure of the folder `./matlab/` containing the MATLAB/Octave implementation of Recommendation ITU-R P.452.
 
 | File/Folder               | Description                                                         |
 |----------------------------|---------------------------------------------------------------------|
 |`tl_p452.m`                | MATLAB function implementing Recommendation ITU-R P.452-16          |
-|`validate_p452.m`          | MATLAB script used to validate the implementation of this Recommendation in `tl_p1812.m` against the reference results obtained using Excel implementation of the same Recommendation and report success if the maximum deviation in final and intermediate results is less than 0.0001 dB.             |
+|`validate_p452.m`          | MATLAB script used to validate the implementation of this Recommendation in `tl_p452.m` against the reference results obtained using Excel implementation of the same Recommendation and report success if the maximum deviation in final and intermediate results is less than 0.0001 dB.             |
 |`./validation_examples/`    | Folder containing a non-exhaustive set of validation examples, in a form of Excel worksheets, for different terrain profiles, clutter heights, frequencies, time-probabilities, etc. They include intermediate and final results of the calculations performed within P.452-16 with the aim of facilitating testing and validation, as well as comparison between different software implementations. They are obtained using Excel implementation of Recommendation ITU-R P.452-16 as defined in ITUR_452_16.xlsm also available on [ITU-R SG 3 Software, Data, and Validation Web Page](https://www.itu.int/en/ITU-R/study-groups/rsg3/Pages/iono-tropo-spheric.aspx). |
 |`./src/`   |  Folder containing all the MATLAB routines necessary for the implementation of the propagation model, including the MATLAB implementation of Recommendation ITU-R P.676-11 (computing the specific attenuation due to dry air and water vapor by means of a summation of individual resonance lines from oxigen and water vapor).|
 |`P452.m`  `P452.fig`                | Graphical User Interface defined in those files can be opened by invoking the command `>> P452` in the MATLAB command window. Works only in MATLAB and not in Octave.       |
@@ -19,7 +19,7 @@ The following table describes the structure of the folder `./matlab/` containing
 
 ## Function Call
 
-The function `tl_p1812` can be called
+The function `tl_p452` can be called
 
 1. by invoking only the required input arguments:
 ~~~
