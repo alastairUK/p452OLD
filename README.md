@@ -28,7 +28,8 @@ Lb = tl_p452(f, p, d, h, zone, htg, hrg, phi_t, phi_r, Gt, Gr, pol, dct, dcr, DN
 
 2. or by explicitly invoking all the input arguments (both required and optional):
 ~~~
-Lb = tl_p452(f, p, d, h, zone, htg, hrg, phi_t, phi_r, Gt, Gr, pol, dct, dcr, DN, N0, press, temp, ha_t, ha_r, dk_t, dk_r);
+Lb = tl_p452(f, p, d, h, zone, htg, hrg, phi_t, phi_r, Gt, Gr, pol, dct, dcr, DN, N0, press, temp, ...
+             ha_t, ha_r, dk_t, dk_r);
 ~~~
 
 ## Required input arguments of function `tl_p452`
